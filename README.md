@@ -1,5 +1,5 @@
 # Mr-Virgil
-Code of [IROS 2025] "Mr. Virgil: Learning Multi-robot Visual-range Relative Localization"
+Code of **[IROS 2025]**  **"Mr. Virgil: Learning Multi-robot Visual-range Relative Localization"**
 
 ![pipeline_page-0001](https://github.com/user-attachments/assets/b72f1d40-6597-4d17-9859-ae4986f0b351)
 
