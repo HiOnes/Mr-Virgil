@@ -9,8 +9,8 @@ def get_args():
     parser.add_argument('--swarm_num', type=int, default=16)   # real: 5, sim: 4  8  12  16
     parser.add_argument('--max_cam_num', type=int, default=20) # real: 8, sim: 8  12 16  20
     parser.add_argument('--lr', type=float, default=1e-4)
-    parser.add_argument('--use_pgo', type=bool, default=False)
-    parser.add_argument('--shuffle', type=bool, default=False)
+    parser.add_argument('--use_pgo', action='store_true', default=False)
+    parser.add_argument('--shuffle', action='store_true', default=False)
     parser.add_argument('--model_file', type=str, default="./checkpoints/model_loading/sim", help="folder to load and save model checkpoints")
     parser.add_argument('--train_dataset', type=str, default="./data/gnn/sim_16robots/train0_world_pose_delta")
     parser.add_argument('--val_dataset', type=str, default="./data/gnn/sim_16robots/val0_world_pose_delta")
